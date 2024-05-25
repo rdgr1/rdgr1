@@ -1,9 +1,9 @@
-<p>
+<p align="center">
   <img width="100px" src="https://i.imgur.com/8lULEd7.png" alt="logo rodger" align="left"><img/>
-  <h1 align="center">Rodger Vidal</h1>
+  <img width="380px" src="https://i.imgur.com/d8qLZBU.png" alt="nome" align="center"><img/>
 </p>
-<img align='right' src="https://github-readme-stats.vercel.app/api?username=rdgr1&show_icons=true&title_color=65d8d6&text_color=65d8d6&icon_color=0cc4c2&bg_color=ffffff&cache_seconds=2300" alt="ilustração do status do github">
-<img src="https://img.shields.io/static/v1?label=Proggammer&message=Rodger&color=0cc4c2&style=for-the-badge&logo=GitHub" alt="Static GitHub">
+<img align='right' src="https://github-readme-stats.vercel.app/api?username=rdgr1&show_icons=true&title_color=65d8d6&text_color=65d8d6&icon_color=0cc4c2&bg_color=ffffff&cache_seconds=2300" alt="ilustração do status do github"> 
+<!-- <img src="https://img.shields.io/static/v1?label=Proggammer&message=Rodger&color=0cc4c2&style=for-the-badge&logo=GitHub" alt="Static GitHub">
 <!-- <img align"left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rdgr1&layout=compact"> -->
 <p>Skills</p>
 <code><img height="32" src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="java"/></code>
