@@ -1,6 +1,6 @@
 <p align="center">
-  <img width="100px" src="https://i.imgur.com/8lULEd7.png" alt="logo rodger" align="left"><img/>
-  <img width="380px" src="https://i.imgur.com/d8qLZBU.png" alt="nome" align="center"><img/>
+  <img width="100px" src="https://i.imgur.com/i9ySU5k.png" alt="logo rodger" align="left"><img/>
+  <img width="380px" src="https://i.imgur.com/uIE5I2V.png" alt="nome" align="center"><img/>
 </p>
 <img align='right' src="https://github-readme-stats.vercel.app/api?username=rdgr1&show_icons=true&title_color=65d8d6&text_color=65d8d6&icon_color=0cc4c2&bg_color=ffffff&cache_seconds=2300" alt="ilustração do status do github"> 
 <!-- <img src="https://img.shields.io/static/v1?label=Proggammer&message=Rodger&color=0cc4c2&style=for-the-badge&logo=GitHub" alt="Static GitHub">
