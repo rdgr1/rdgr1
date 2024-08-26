@@ -2,7 +2,7 @@
   <img width="100px" src="https://i.imgur.com/i9ySU5k.png" alt="logo rodger" align="left"><img/>
   <img width="380px" src="https://i.imgur.com/uIE5I2V.png" alt="nome" align="center"><img/>
 </p>
-<img align='right' src="https://github-readme-stats.vercel.app/api?username=rdgr1&show_icons=true&title_color=65656a&text_color=65656a&icon_color=#65656a&bg_color=rgb(101,101,106,100)&cache_seconds=2300" alt="ilustração do status do github"> 
+<img align='right' src="https://github-readme-stats.vercel.app/api?username=rdgr1&show_icons=true&title_color=65656a&text_color=65656a&icon_color=65656a&bg_color=0000000&cache_seconds=2300" alt="ilustração do status do github"> 
 <!-- <img src="https://img.shields.io/static/v1?label=Proggammer&message=Rodger&color=0cc4c2&style=for-the-badge&logo=GitHub" alt="Static GitHub">
 <!-- <img align"left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rdgr1&layout=compact"> -->
 <p>Skills</p>
