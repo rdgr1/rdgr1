@@ -21,6 +21,3 @@
 <a text-decoration=none href="https://www.instagram.com/_.vidallx" >
 <img height="43" src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="insta"/>
 </a>
-<a text-decoration=none href="https://github.com/rdgr1" >
-<img height="43" src="https://img.icons8.com/?size=100&id=63777&format=png&color=000000" alt="linkedin"/>
-</a>
