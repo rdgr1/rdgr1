@@ -19,10 +19,61 @@ jobs:
           outputs: |
             github-contribution-grid-snake.svg
 
+      - name: Configurar Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Criar e trocar para a branch output
+        run: |
+          git fetch origin output || git checkout --orphan output
+          git reset --hard
+          git clean -fd
+          git checkout output
+
       - name: Commit e push do resultado
-        uses: crazy-max/ghaction-github-pages@v3
+        run: |
+          git add github-contribution-grid-snake.svg
+          git commit -m "Atualizando cobrinha de commits" || echo "Nenhuma mudança para commit"
+          git push origin output --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Roda todos os dias à meia-noite
+  workflow_dispatch:  # Permite rodar manualmente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Gerar animação da cobrinha
+        uses: Platane/snk@v3
         with:
-          target_branch: output
-          build_dir: .
+          github_user_name: rdgr1  # Substitua pelo seu username
+          outputs: |
+            github-contribution-grid-snake.svg
+
+      - name: Configurar Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Criar e trocar para a branch output
+        run: |
+          git fetch origin output || git checkout --orphan output
+          git reset --hard
+          git clean -fd
+          git checkout output
+
+      - name: Commit e push do resultado
+        run: |
+          git add github-contribution-grid-snake.svg
+          git commit -m "Atualizando cobrinha de commits" || echo "Nenhuma mudança para commit"
+          git push origin output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
