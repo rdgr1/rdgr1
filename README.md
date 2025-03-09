@@ -23,13 +23,6 @@
   <a href="https://www.linkedin.com/in/rodger-vidal-dias-92082a270" target="_blank">
     <img height="43" src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="LinkedIn"/>
   </a>
-  <a href="https://www.instagram.com/_.vidallx" target="_blank">
-    <img height="43" src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="Instagram"/>
-  </a>
 </div>
 
 ---
-
-## 🐍 Cobrinha de Commits
-
-![Snake animation](https://github.com/rdgr1/rdgr1/blob/output/github-contribution-grid-snake.svg)
