@@ -12,7 +12,7 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # 🔹 Garante que todo o histórico do repositório seja puxado
+          fetch-depth: 0  # 🔹 Garante que todo o histórico do repositório seja baixado
 
       - name: Gerar animação da cobrinha
         uses: Platane/snk@v3
@@ -31,6 +31,7 @@ jobs:
           git fetch origin output || git checkout --orphan output
           git reset --hard
           git clean -fd
+          git branch --set-upstream-to=origin/output output
           git pull origin output || echo "Branch output não existia remotamente, criando..."
           git push origin output --set-upstream
 
