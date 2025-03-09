@@ -26,10 +26,10 @@ jobs:
 
       - name: Criar e trocar para a branch output
         run: |
-          git fetch origin output || git checkout -b output
-          git reset --hard
-          git clean -fd
-          git push origin output --set-upstream
+            git fetch origin
+            git checkout output || git checkout -b output
+            git pull origin output --rebase
+            git push origin output --force
 
       - name: Commit e push do resultado
         run: |
