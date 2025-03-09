@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # 🔹 Garante que todo o histórico do repositório seja puxado
 
       - name: Gerar animação da cobrinha
         uses: Platane/snk@v3
@@ -26,10 +28,11 @@ jobs:
 
       - name: Criar e trocar para a branch output
         run: |
-         git fetch origin output || git checkout -b output
-         git reset --hard
-         git clean -fd
-         git push origin output --set-upstream
+          git fetch origin output || git checkout --orphan output
+          git reset --hard
+          git clean -fd
+          git pull origin output || echo "Branch output não existia remotamente, criando..."
+          git push origin output --set-upstream
 
       - name: Commit e push do resultado
         run: |
