@@ -1,5 +1,4 @@
 <p align="center">
-  <img width="100px" src="https://i.imgur.com/i9ySU5k.png" alt="logo rodger" align="left">
   <img width="380px" src="https://i.imgur.com/uIE5I2V.png" alt="nome" align="center">
 </p>
 
